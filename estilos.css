@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: #1abc9c;
+    text-align: center;
+    position: fixed;
+}
+
+.ancho-menu{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+
+.logo-menu{
+    width: 30%;
+    height: 100px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.logo-menu p a{
+    color: #fff;
+    font-size: 50px;
+    margin: auto;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: lobster;
+}
+
+nav{
+    width: 70%;
+    height: 100%;
+    float: left;
+    text-align: right;
+    padding-top: 30px;
+    box-sizing: border-box;
+
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: lobster;
+}
+
+nav ul li a:hover{
+    color: #ff968a;
+}
+
+@font-face{
+    font-family: lobster;
+    src: url(fuentes/LobsterTwo-Regular.ttf);
+}
+
+.imagen-logo{
+    width: 30%;
+    height: 850px;
+}
+
+.imagen-logo img{
+    width: 200px;
+    height: 200px;
+    padding-top: 110px;
+    margin-left: 40px;
+    float: left;
+}
+.imagen-logo iframe{
+    margin-left: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+section{
+    width: 70% ;
+    float: right;
+    padding-top: 20px;
+    margin-top: -750px;
+}
+
+iframe{
+    margin-left: 120px;
+}
+
+.final{
+    background: #1abc9c;
+    height: 100px;
+}
+
+.final-contenedor{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
+
+.final-contenedor p{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: lobster;
+    font-size: 20px;
+}
